@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Баги в API",
+    "matchedStatuses": ["passed", "failed", "broken"],
+    "messageRegex": ".*БАГ.*",
+    "traceRegex": ".*"
+  },
+  {
+    "name": "Расхождения с документацией",
+    "matchedStatuses": ["passed"],
+    "messageRegex": ".*ВЫЯВЛЕН БАГ.*",
+    "traceRegex": ".*"
+  },
+  {
+    "name": "Успешные тесты",
+    "matchedStatuses": ["passed"]
+  },
+  {
+    "name": "Проблемные тесты",
+    "matchedStatuses": ["failed", "broken"]
+  }
+]
